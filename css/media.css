@@ -1,0 +1,200 @@
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1170px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+  .btn-outer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    padding: 5px 0px;
+    width: 100%;
+    justify-content: center !important;
+  }
+
+  .whatsapp,
+  .call {
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+
+  .banner-content h1 {
+    font-size: 38px;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .banner-content p {
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .banner-content br {
+    display: none;
+  }
+
+  .banner-content p,
+  .banner-content ul li {
+    font-size: 16px;
+  }
+  .bannerContentBtn {
+    flex-direction: column;
+  }
+  .bannerContentBtn button {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .bannerForm {
+    padding: 20px;
+  }
+
+  .highlights-section h2 {
+    font-size: 32px;
+  }
+
+  .highlights-section p {
+    font-size: 15px;
+  }
+
+  .myBtn {
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .topCareer-section h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .topCareer-section p {
+    font-size: 15px;
+  }
+  .careerBox {
+    width: 100%;
+    height: 200px;
+    margin: 0px 60px;
+  }
+  .left-part {
+    margin-top: 0px;
+  }
+  .left-part h2 {
+    font-size: 30px;
+  }
+
+  .left-part p {
+    font-size: 15px;
+  }
+
+  .certificate-section {
+    margin-bottom: 0rem;
+  }
+
+  .certificate-section h2 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+
+  .curriculum h2 {
+    font-size: 32px;
+  }
+
+  .curriculum p {
+    font-size: 14px;
+  }
+
+  .tabMySysteam .nav-pills .nav-link,
+  .nav-pills .show > .nav-link {
+    font-size: 14px;
+  }
+
+  .tab-pane p {
+    font-size: 12px;
+  }
+
+  .tab-pane ul li {
+    font-size: 12px;
+  }
+  .tab-pane .seo {
+    flex-direction: column;
+  }
+  .tab-pane .analytics {
+    flex-direction: column;
+  }
+
+  .learn-title {
+    text-align: center;
+  }
+
+  .learn-title h2 {
+    font-size: 32px;
+  }
+
+  .student-title {
+    font-size: 32px;
+  }
+  .student {
+    width: 400px;
+    height: 276px;
+    padding: 10px;
+  }
+
+  .student > p {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .course-start {
+    padding: 2rem;
+    min-height: 255px;
+  }
+
+  .content h2 {
+    font-size: 28px;
+    line-height: 2.2rem;
+  }
+
+  .content p {
+    font-size: 10px;
+  }
+
+  .content button {
+    font-size: 14px;
+    padding: 10px 22px;
+  }
+
+  .content {
+    z-index: 1;
+  }
+
+  .left-side,
+  .right-side {
+    display: none;
+  }
+
+  .faqsSection button {
+    font-size: 14px;
+  }
+  .faqsSection .accordion-body {
+    font-size: 12px;
+  }
+
+  .comapany h2 {
+    margin-top: 2.2rem;
+    font-size: 32px;
+  }
+  .footer-part p {
+    width: 450px;
+    font-size: 132x;
+    text-align: center;
+  }
+}

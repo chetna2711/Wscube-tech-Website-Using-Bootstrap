@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--  font-awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css links -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+
+    <!-- google inter font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+
+
+
+<!-- BookDemo model  -->
+<div class="modal fade" id="bookDemoModel" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Book Your Demo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" class="bannerForm p-3">
+          <h3>Book Your Free Class Now!</h3>
+          <p>2 days of free demo classes without paying in advance!</p>
+          <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Enter Your Email"
+            />
+          </div>
+
+          <div class="mb-3">
+            <button class="registerBtn">Register Now</button>
+          </div>
+        </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+<!-- Navbar -->
+<header class="container-fluid bg-white py-2 shadow-lg">
+      <div class="container">
+        <div class="row align-items-center">
+          <figure class="col-lg-6 col-12 text-lg-start text-center mb-0 pb-0">
+            <img src="./images/logo.svg" alt="" />
+          </figure>
+          <div class="col-lg-6">
+            <div class="btn-outer d-flex gap-3 justify-content-end">
+              <button class=" whatsapp"  data-bs-toggle="tooltip" data-bs-placement="left" title="Click To Chat With Whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                Chat With Us
+              </button>
+
+              <button class="call">
+                <i class="fa-solid fa-phone"></i>  Call Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+</header>
+
+
+<!-- Home Page section  -->
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+      <div class="container">
+        <div class="row justify-content-between gy-4 align-items-center">
+          <div class="col-lg-6">
+            <div class="banner-content">
+              <h1>
+                Career Opportunities <br />
+                in <span>Digital Marketing</span>
+              </h1>
+
+              <p>
+                Digital marketing course so good,you only pay-after-placement
+              </p>
+
+              <ul class="m-0 p-0">
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i> Specialization:
+                  Performance Marketing
+                </li>
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i> Min salary of Rs 4.5
+                  LPA
+                </li>
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i> 50 seats only
+                </li>
+              </ul>
+
+              <div class="bannerContentBtn d-flex gap-3">
+                <button data-bs-toggle="modal" data-bs-target="#bookDemoModel">Book 2 Days Demo</button>
+                <button data-bs-toggle="modal" data-bs-target="#enquiryModel">
+                  <i class="fa-solid fa-download"></i> Download Curriculum
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <form action="" class="bannerForm shadow">
+              <h3>Book Your Free Class Now!</h3>
+              <p>2 days of free demo classes without paying in advance!</p>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter Your Email"
+                />
+              </div>
+
+              <div class="input-group mb-3">
+                <label class="form-label">Mobile Number</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1">+91</span>
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="Enter Your Mobile Number"
+                  />
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <button class="registerBtn">Register Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5 shadow-lg counterSection">
+        <div class=" row row-cols-lg-5 row-cols-md-2 row-cols-2 p-4 ">
+          <div class="col">
+            <h2>1000+</h2>
+            <p>Students Trained</p>
+          </div>
+          <div class="col">
+            <h2>₹4.5 LPA</h2>
+            <p>Students Trained</p>
+          </div> <div class="col">
+            <h2>320+</h2>
+            <p>Recruiting Partners</p>
+          </div> <div class="col">
+            <h2>10:00 am</h2>
+            <p>Program Timings</p>
+          </div> <div class="col">
+            <h2>11th May</h2>
+            <p>Next Batch Starts </p>
+          </div>
+      </div>
+    </section>
+
+<!-- Key Highlites section  -->
+    <section class="container-fluid  highlights-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12"><h2>Key Highlights of the Course</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta consequatur aut explicabo neque laboriosam cumque </p>
+          </div>
+        </div>
+
+        <div class="row mb-4 gy-4">
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItem">
+              <img src="/images/h1.png" alt="">
+              <div><h4>Assignments & Modules tests</h4>
+                <p>Test your knowledge</p></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItem">
+              <img src="/images/h2.png" alt="">
+              <div><h4>Industry-recognized Certification</h4>
+                <p>Stand out to your professional</p></div>
+            </div>
+          </div><div class="col-lg-4 col-sm-6 col-12">
+            <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItem">
+              <img src="/images/h3.png" alt="">
+              <div><h4>Live classes & recorded lectures</h4>
+                <p>Best of both worlds of learning</p></div>
+            </div>
+          </div><div class="col-lg-4 col-sm-6 col-12">
+            <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItem">
+              <img src="/images/h4.png" alt="">
+              <div><h4>Downloadable Content</h4>
+                <p>With lifetime access</p></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItem">
+              <img src="/images/h5.png" alt="">
+              <div><h4>6 Industry level projects</h4>
+                <p>Get practical skills</p></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItem">
+              <img src="/images/h6.png" alt="">
+              <div><h4>4 Live Doubt clearing Session</h4>
+                <p>Gain a clear understanding</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row  justify-content-center ">
+          <div class="col-lg-2 col-12 mb-3 gy-4">
+            <button class="myBtn" >Book Free Class</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Top Career section  -->
+    <section class="container-fluid py-lg-5 py-sm-4  topCareer-section">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-12">
+            <h2>Top career options in <br/> Digital Marketing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare pharetra.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center gap-4 mt-4">
+          <div class="col-lg-3 shadow-lg px-3 py-4 careerBox">
+              <img src="./images/option1.png" alt="">
+               <h4 class="pt-3">Content Marketer</h4>
+               <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.
+               </p>
+          </div>
+          <div class="col-lg-3 shadow-lg px-4 py-3 careerBox">
+              <img src="./images/Rectangle.png" alt="">
+              <i class="fa-solid fa-magnifying-glass icons"></i>
+             <h4 class="pt-3">SEO Specialist</h4>
+             <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.
+             </p>
+        </div>
+        <div class="col-lg-3 shadow-lg px-4 py-3 careerBox">
+          <img src="./images/Rectangle.png" alt="" >
+          <i class="fa-solid fa-users icons"></i>
+           <h4 class="pt-3">Social Media Manager</h4>
+           <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.
+           </p>
+      </div>
+      <div class="col-lg-3 shadow-lg px-4 py-3 careerBox">
+        <img src="./images/Rectangle.png" alt="">
+        <i class="fa-solid fa-chart-line icons"></i>
+         <h4 class="pt-3">Marketing Analyst</h4>
+         <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.
+         </p>
+    </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certification section  -->
+    <section class="container-fluid certificate-section">
+      <div class="container">
+        <div class="row">  
+       <div class="col-lg-6  left-part ">
+            <h2>Get Certified</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+
+           <div class="outer-box">
+            <div class="boxs d-flex p-3">
+              <img src="./images/Ticket Star.png"  alt="">
+              <div class="ps-4">
+                <h5>Official and verifie</h5>
+                <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.  </p>
+              </div>
+            </div>
+
+            <div class="boxs d-flex p-3">
+              <img src="./images/Send.png"  alt="">
+              <div class="ps-4">
+                <h5>Easily shareable</h5>
+                <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.  </p>
+              </div>
+            </div>
+            
+            <div class="boxs d-flex p-3">
+              <img src="./images/Activity.png"  alt="">
+              <div class="ps-4">
+                <h5>Career shifting</h5>
+                <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.  </p>
+              </div>
+            </div>
+           </div>
+
+            
+               <button class="myBtn mt-5" >Book Free Class</button>
+            
+       </div>
+
+       <div class="col-lg-5 offset-lg-1 position-relative d-flex justify-content-center right-part">
+  
+        <!-- Dotted corner design -->
+        <div class="dotted-img-wrapper">
+          <img src="./images/dooteed.png" alt="Dotted Design" class="dotted-square-img">
+        </div>
+      
+        <!-- Background Circle -->
+        <div class="background-circle position-absolute"></div>
+      
+        <!-- Certificate Image -->
+        <div class="certificate-img-wrapper">
+          <img src="./images/certificate.png" alt="Certificate" class="img-fluid certificate-img">
+        </div>
+      </div>
+      
+      
+        </div>
+
+        <div class="row  justify-content-start  mb-2">
+          
+        </div>
+      </div>
+    </section>
+
+    <!--  Curriculum section -->
+    <section class="container-fluid py-5 curriculum">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="text-center">Curriculum of <br/>
+              Our Digital Marketing</h2>
+             <p class="text-center mt-3">Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare pharetra.</p>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-12 tabMySysteam">
+            <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#introduction" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Introduction</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#case-studies" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Case Studies</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#google-adSense" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Google AdSense</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#SEO-mastery" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">   SEO Mastery</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#google-analytics" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Google Analytics</button>
+              </li>           
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+
+
+              <div class="tab-pane fade show active" id="introduction" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row shadow-lg  p-4">
+                  <div class="col-12">
+                    <p> Digital marketing is the promotion of products or services using digital channels like search engines, social media, email, and websites. It enables businesses to reach a global audience, engage customers, and analyze performance in real time, making it a powerful and cost-effective alternative to traditional marketing methods.
+                    </p>
+                   <ul  class="list-items d-flex justify-content-start flex-column  ">
+                    <li class="mb-2">📢 1. Search Engine Optimization (SEO)</li>
+                    <li  class="mb-2" >🎥 2. Video Marketing</li>
+                    <li  class="mb-2"> 🌐 3. Affiliate Marketing</li>
+                    <li  class="mb-2">📝 4. Content Marketing</li>
+                    
+                   </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="case-studies" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row shadow-lg  p-4">
+                  <div class="col-12">
+                   <p>Case studies are in-depth investigations of a single subject—such as a person, business, product, or event—to explore how and why something happened, what was done, and what results were achieved.</p>
+                    <div class="d-flex flex-wrap justify-content-start  flex-column">
+                      <p >1. Problem/Challenge - <span>What issue did they face?</span></p>
+                      <p >2. Solution/Action - <span>What was done to address the issue?</span></p>
+                      <p >3.  Results – <span>What changed? Was it successful?</span></p>
+                      <p >4. Conclusion –<span> Lessons learned or key takeaways.</span></p>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+            
+        
+              <div class="tab-pane fade" id="google-adSense" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row shadow-lg p-4">
+                  <div class="col-12">
+                    <p >Google AdSense is a free program by Google that allows website owners and content creators to earn money by displaying ads on their websites, blogs, or YouTube channels. It works by matching ads to your site based on your content and visitors.</p>
+
+                  <p> 🔑 How It Works:</p> 
+                  <p>→ Sign Up with Google AdSense.</p>
+                  <p> → Add Ad Code to your site (Google gives you this).</p>
+                  <p>→ Ads Appear Automatically – Google shows relevant ads.</p>
+                  </div>
+                </div>
+               </div>
+
+
+
+               <div class="tab-pane fade show " id="SEO-mastery" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row shadow-lg p-4">
+                  <div class=" col-12  ">
+                    <div class="d-flex flex-wrap gap-3 justify-content-start seo">
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm">🔍 1. Learn the Fundamentals</p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm">👉 2. Master the Basics </p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm">📝 3. On-Page SEO</p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm">🔧 4. Technical SEO</p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm">🔗 5. Off-Page SEO</p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm">📚 6. Stay Updated</p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm">💻 7. Technical SEO Game Strong</p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm">🖇️ 8. Link Building (Ethically!)</p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm">
+                        ✒️ 9. Content that Ranks and Converts </p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+               <div class="tab-pane fade" id="google-analytics" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row shadow-lg p-4">
+                  <div class="col-12">
+                    <p>Google Analytics is a free web analytics tool offered by Google that helps website owners track and analyze traffic. It provides insights into how users find and interact with a site, including data on user behavior, traffic sources, page views, bounce rates, and conversions.Google Analytics is a free web analytics tool by Google that helps website owners and marketers track and analyze website traffic.</p>
+                  </div>
+                  <div class="col-lg-12 d-flex analytics ">
+                    <p class=" px-3 py-2 bg-light rounded shadow-sm mx-1">👉Real Reports</p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm mx-1">👉Events Tracking
+                      </p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm mx-1">👉 User Explorer</p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm mx-1">👉 Traffic Acquisition</p>
+                      <p class=" px-3 py-2 bg-light rounded shadow-sm mx-1">👉Audience Builder</p>
+
+
+                      
+
+                  </div>
+                </div>
+                
+               </div>
+
+
+  
+            </div>
+          </div>
+        </div>
+
+        <div class="row  justify-content-center ">
+          <div class="col-lg-2 col-12 mb-4 gy-4">
+            <button class="myBtn mt-4" >Download Curriculum</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn section  -->
+    <section class="container-fluid learn-container py-5">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 learn-title">
+            <h2>Why Learn Digital Marketing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+          </div>
+        </div>
+
+        <div class="row  learn-section gap-4 mb-4 justify-content-center">
+          <div class="col-lg-4 shadow-lg p-4 frame">
+            <img src="./images/Frame.png" alt="" class="mb-3">
+            <h5 class="mb-2">Learn From Industry Experts</h5>
+            <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis  Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-lg-4 shadow-lg p-4 frame">
+            <img src="./images/Frame (1).png" alt="" class="mb-3">
+            <h5 class="mb-2">Structured & Latest Curriculum</h5>
+            <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis  Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div><div class="col-lg-4 shadow-lg p-4 frame">
+            <img src="./images/Frame (2).png" alt="" class="mb-3">
+            <h5 class="mb-2">Highly-Engaging Live Classes</h5>
+            <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis  Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="row  learn-section gap-4 mb-4 justify-content-center">
+          <div class="col-lg-4 shadow-lg p-4 frame">
+            <img src="./images/Frame (3).png" alt="" class="mb-3">
+            <h5 class="mb-2">Work on Real Projects</h5>
+            <p>Lorem ipsum dolo sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-lg-4 shadow-lg p-4 frame">
+            <img src="./images/Frame (4).png" alt="" class="mb-3">
+            <h5 class="mb-2">100% Job Assistance</h5>
+            <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis  Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div><div class="col-lg-4 shadow-lg p-4 frame">
+            <img src="./images/Frame (5).png" alt="" class="mb-3">
+            <h5 class="mb-2">Get Certification</h5>
+            <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis  Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="row  justify-content-center ">
+          <div class="col-lg-2 col-12 mb-1 gy-4 ">
+            <button class="myBtn" >Book Free Class</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Student Review section -->
+    <section class="container-fluid py-5">
+      <div class="container">
+        <div class="row student-title">
+          <div class="col-12 ">
+            <h2 >What Our Students <br/> Are Saying!</h2>
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare pharetra.</p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center ">
+          <div class="col-lg-6 p-4 student mx-3 my-3">
+            <div class="d-flex gap-3  student-intro align-items-center mb-3 ">
+              <img src="./images/user1 (2).png" alt="">
+               <div>
+                <h4>Matt Cannon</h4>
+                <p>September 1, 2023</p>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Arcu nisi diam eget id turpis donec et morbi. Sit eu nisl non scelerisque vestibulum pulvinar. Condimentum massa bibendum pretium tincidunt sed vel.</p>
+          </div>
+          <div class="col-lg-6 p-4 student mx-3 my-3">
+            <div class="d-flex gap-3  student-intro align-items-center mb-3 ">
+              <img src="./images/user1 (1).png" alt="">
+               <div>
+                <h4>Matt Cannon</h4>
+                <p>September 1, 2023</p>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Arcu nisi diam eget id turpis donec et morbi. Sit eu nisl non scelerisque vestibulum pulvinar. Condimentum massa bibendum pretium tincidunt sed vel.</p>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+    </section>
+
+    <!-- Course start section -->
+    <section class="container-fluid p-5 mb-5 ">
+      <div class="container course-start">
+        <div class="row">
+          <div class="col-lg-12 ">
+  
+            <img src="./images/left-side.png" alt="" class="left-side">
+            <div class="content">
+              <h2>Are You Ready To Start  <br/>Your Course?</h2>
+              <p>Lorem ipsum dolor sit amet consectetur. Arcu nisi diam eget id  <br/> turpis donec et morbi.</p>
+              <button>Book Free Class</button></div>
+            <img src="./images/right-side.png" alt="" class="right-side">
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FAQs section -->
+    <section class="container-fluid py-5 faqsSection">
+      <div class="container ">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+             <h2 class="text-center mt-4">Digital Marketing Course <br/> FAQs</h2>
+             <p class="text-center">Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare pharetra.</p>
+
+             <div class="accordion mt-4" id="accordionFlushExample" >
+              <div class="accordion-item my-3">
+                <h2 class="accordion-header  " id="headingOne">
+                <button class="accordion-button bg-white text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  What is website development?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="headingOne" >
+                <div class="accordion-body">
+                  Website development is the process of creating and building websites for the internet. It involves a combination of coding, design, and content management. Web development can include everything from building a simple static page to complex web applications
+                </div>
+              </div>
+              </div>
+               <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button bg-white text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                  What is an accordion component in web design?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse " aria-labelledby="headingOne" >
+                <div class="accordion-body">
+                  An accordion is a UI element that allows users to expand and collapse sections of content. It helps keep content organized and prevents users from being overwhelmed with too much information at once.
+
+
+                </div>
+              </div>
+              </div>
+               <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button bg-white text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                  Why should I use an accordion on my website?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse " aria-labelledby="headingOne" >
+                <div class="accordion-body">
+                  Accordions improve user experience by making the interface cleaner and more intuitive. They're especially useful for FAQs, settings menus, and any section with optional or detailed content.
+                </div>
+              </div>
+              </div>
+            
+              <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button bg-white text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                  What is the use of accordion in a website?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse " aria-labelledby="headingOne" >
+                <div class="accordion-body">
+                  An accordion is used in websites to organize and display content in a clean, space-saving way. It allows users to click and expand sections to view more information without overwhelming the page. This is especially useful for FAQs, menus, product details
+                </div>
+              </div>
+              </div>
+
+
+             </div>
+          </div>
+        </div>
+
+        <div class="row  justify-content-center ">
+          <div class="col-lg-2 col-12 mb-4 gy-4 ">
+            <button class="myBtn" >Book Free Class</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Top companies section  -->
+    <section class="container-fluid">
+      <div class="container">
+        <div class="row comapany">
+          <div class="col-lg-12">
+            <h2 class=" text-center">Top Companies Hiring Digital Marketing in India</h2>
+            <img src="./images/companies.png" alt="" class="mb-5">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer section -->
+    <section class="footer-section">
+      <div class="container text-center footer-content">
+        <img src="./images/logo_black 2.png" alt="logo" class="footer-logo mb-3">
+        <p class="footer-text">
+          Lorem ipsum dolor sit amet consectetur. Mattis id rhoncus non fermentum quam
+          duis faucibus blandit. Non suscipit quis sed et mus nisl lacinia massa
+        </p>
+      </div>
+    
+      <div class="footer-hr-wrapper">
+        <hr class="footer-hr">
+      </div>
+
+      <footer class="text-center py-3">
+        <p class="footer-bottom-text mb-0">All rights reserved by <a href="#">WsCube Tech</a></p>
+      </footer>
+    </section>
+  </body>
+
+ <!-- bootstrap js link -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</html>

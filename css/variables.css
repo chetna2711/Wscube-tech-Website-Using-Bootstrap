@@ -1,0 +1,29 @@
+:root {
+  /* Colors */
+  --green-color: #27ae60;
+  --white-color: #ffffff;
+  --text-color: #2699fb;
+  --gray-color: #43505b;
+  --primary-text-color: #0a2134;
+  --light-background-color: #f7faff;
+  --gradiant-background: linear-gradient(to right, #0acefe, #2699fb);
+
+  /* Font Sizes */
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-15: 15px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-22: 22px;
+  --fs-36: 36px;
+  --fs-44: 44px;
+
+  /* Font Weights */
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  /* Border Radius */
+  --bordre-radius: 8px;
+}
